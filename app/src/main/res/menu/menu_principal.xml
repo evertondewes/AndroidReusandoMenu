@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Listar Pessoas"
+        android:id="@+id/listar_pessoas" ></item>
+
+    <item android:title="Cadastrar Pessoas"
+        android:id="@+id/cadastrar_pessoa"></item>
+
+    <item android:title="Detalhes do Sistema" >
+        <menu >
+            <item android:title="Sobre o Sistema"
+                android:id="@+id/sobre"
+                />
+            <item android:title="Versão"
+                android:id="@+id/versao"/>
+        </menu>
+    </item>
+
+</menu>
